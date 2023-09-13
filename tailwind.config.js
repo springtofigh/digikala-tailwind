@@ -1,11 +1,11 @@
 module.exports = {
     content: ["./public/**/*.{html,js}"],
     theme: {
-      extend: {
-        fontFamily: {
-          sans: ["Shabnam"],
-        },
+      fontFamily: {
+        body: ['Shabnam' , 'sans-serif'],
+        display:['Shabnam' , 'sans-serif']
       },
+      extend: {}
     },
     plugins: [
       require('@tailwindcss/forms'),

@@ -1,4 +1,8 @@
-@import url('/public/font.css');
 @tailwind base;
 @tailwind components;
+@import url(font.css);
+html {
+    @apply font-body
+}
+
 @tailwind utilities;
